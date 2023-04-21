@@ -185,7 +185,7 @@ public class Main{
  */
 
 
-     public static void pattern9(){
+     public static  void pattern9(){
           for (int i=1;i<=5;i++ ){
                for(int j=1;j<=i;j++){
                     int sum=i+j;
@@ -204,14 +204,7 @@ public class Main{
      public static void main(String[] args){
           
           
-          pattern1();
-          pattern2();
-          pattern3();
-          pattern4();
-          pattern5();
-          pattern6();
-          pattern7();
-          pattern8();
+    
           pattern9();
      
      }
