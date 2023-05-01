@@ -23,14 +23,22 @@ public class isPrime {
             if(n%i==0){
                 return false;
             }
-
         }
         return true;
     }
 
+    // To find the prime numbers in a given n range
+
+    public static void Range(int n){
+        for (int i=2;i<=n;i++){
+            if(Prime(i)){
+                System.out.println(i+" ");
+            }
+        }
+    }
+
      public static void main(String[] args){
-        System.out.println(Prime(4));
-        System.out.println(isPrime(4));
+       Range(15);
      } 
 
      
