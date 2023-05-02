@@ -3,12 +3,7 @@ public class Arr{
     int[] array={1,2,3,4};
      System.out.println(array[2]);
 
-  }
-
-
-
-
-  
+  } 
 /*
  arr[0]=1
 arr[1]=2
