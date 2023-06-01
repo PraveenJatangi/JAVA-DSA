@@ -317,7 +317,7 @@ public class Main{
     
           //Butterfly(5);
           //spaceRhommbus(5);
-          //diomand(4);
+          diomand(50);
      }
 }
 
