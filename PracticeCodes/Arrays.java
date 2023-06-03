@@ -37,7 +37,7 @@ public class Arrays {
     int row = matrix.length;
     int col = matrix[0].length;
     int[][] transpose = new int[col][row];
-
+    
     // Transpose the matrix 
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
