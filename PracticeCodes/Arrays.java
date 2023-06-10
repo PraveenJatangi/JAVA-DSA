@@ -63,4 +63,7 @@ public class Arrays {
         System.out.println();
     }
 }
+
+    public static void sort(char[] str1charArray) {
+    }
 }
